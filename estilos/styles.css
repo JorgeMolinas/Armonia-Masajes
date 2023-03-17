@@ -1,0 +1,124 @@
+/*Estilos Generales*/
+body{
+    padding: 0;
+    margin: 0;
+    scroll-margin: 0;
+    background-color: rgb(247, 220, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h2 h3 {
+    margin: 5px;
+    padding: 0;
+}
+
+article {
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+article img {
+    border-radius: 10px;
+    height: 180px;
+    width: auto;
+}
+
+p {
+    margin: 10px;
+}
+
+aside {
+    padding: 10px;
+}
+
+section {
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulo {
+    color: brown
+}
+/*HEADER*/
+.encabezado{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    background-color: rgb(248, 193, 186);
+    /* padding: 7px; */
+    width: 100%;
+}
+
+.encabezado .logo img {
+    width: 125px;
+    height: auto;
+}
+
+.encabezado .logo {
+    width: 20%;
+    text-align: center; 
+    color: brown;
+    font-size: 20px; 
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.navegacionPrincipal {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    color: rgb(248, 193, 186);
+    margin-right: 40px;
+}
+/* 
+.menu .navegacionPrincipal {
+    display: flex;
+    justify-content: center;
+} */
+
+.menu .navegacionPrincipal ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    /* padding: 10px;  */
+}
+
+.menu .navegacionPrincipal ul li {
+    
+    text-decoration: none;
+    width: 30%;
+    margin: 1px;
+     /* background: var(--primario);  */
+    background:rgb(75, 1, 1);
+    border-radius: 2rem;
+    color: rgb(248, 193, 186);
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: rgb(248, 193, 186);
+}
+
+
+.navegacionPrincipal li:hover a {
+    background:rgb(167, 41, 41);
+    border-radius: 2rem;
+    color: rgb(235, 197, 187);    
+}
+
+.navegacionPrincipal li a {
+    display: block;  
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: rgb(248, 193, 186);
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.navegacionPrincipal li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
