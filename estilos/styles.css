@@ -166,7 +166,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 1px solid rgb(183 97 97 / 39%);
+    /* border: 1px solid rgb(183 97 97 / 39%); */
     border-radius: 10px;
     margin: 5px;
 }
