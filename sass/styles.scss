@@ -5,6 +5,9 @@
 @import "contacto";
 @import "conocenos";
 
+/****** VARIABLES ******/
+$estilo-border: 1px solid rgb(183 97 97 / 39%);
+$bg-color: rgb(227 66 51 / 7%);
 
 /****** ESTILOS GENERALES ******/
 * {
@@ -45,8 +48,6 @@ aside {
     text-align: center;
     padding: 10px;    
 }
-
-
 
 /****** ENCABEZADO CON NESTING ******/
 .encabezado{ 

@@ -3,7 +3,6 @@
   justify-content: space-aound;
   margin: 5px;
   border: 1px solid rgba(183, 97, 97, 0.39);
-  border-top: 1px solid rgba(183, 97, 97, 0.39);
   background-color: rgba(227, 66, 51, 0.07);
   border-radius: 10px;
 }
@@ -392,6 +391,7 @@
   color: rgb(235, 197, 187);
 }
 
+/****** VARIABLES ******/
 /****** ESTILOS GENERALES ******/
 * {
   padding: 0;
