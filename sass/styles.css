@@ -46,6 +46,11 @@
   border: 1px solid rgba(183, 97, 97, 0.39);
   background-color: rgba(227, 66, 51, 0.07);
 }
+.tipos-masajes .masaje-item .titulo-item {
+  color: brown;
+  padding-bottom: 10px;
+  justify-content: center;
+}
 .tipos-masajes .masaje-item img {
   box-shadow: 0 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -398,8 +403,6 @@ body {
   background-color: rgb(247, 220, 217);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  /* line-height: 22px; */
-  /* margin: 0; */
 }
 
 i {
@@ -426,12 +429,6 @@ aside {
   color: brown;
   text-align: center;
   padding: 10px;
-}
-
-.titulo-item {
-  color: brown;
-  padding-bottom: 10px;
-  justify-content: center;
 }
 
 /****** ENCABEZADO CON NESTING ******/
