@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: $estilo-border;    
-    background-color: bg-color;
+    border: $estilo-border;
+    background-color: $bg-color;
     margin: 10px;
     border-radius: 10px;
     .titulo {
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-around;    
     border: $estilo-border;    
-    background-color: bg-color;
+    background-color: $bg-color;
     margin: 10px;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@
             justify-content: center;
             margin-top: 10px;
             border: $estilo-border;    
-            background-color: bg-color;
+            background-color: $bg-color;
             margin: 10px;
             border-radius: 10px;
             padding: 10px;
@@ -49,19 +49,7 @@
                 margin: 5px 0px;
                 cursor: pointer;
                 box-sizing: border-box;
-            }
-            .boton {
-                border-radius: 2rem;    
-                height: auto;    
-                padding: 10PX;    
-                font-size: 0.8rem;
-                list-style-type: none; 
-                text-align: center;
-                font-weight: bolder;
-                background:rgb(75, 1, 1);
-                color: rgb(248, 193, 186);
-                text-decoration: none;
-            }
+            }            
         }
     }
     .ubicacion {

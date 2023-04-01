@@ -1,9 +1,26 @@
+/****** VARIABLES ******/
+$estilo-border:1px solid rgb(183 97 97 / 39%);
+$bg-color:  rgb(227 66 51 / 7%);
+
+/****** APLICO EXTEND ******/
+.estructura-flex-reservas-contactos {
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        border: $estilo-border;    
+        background-color: $bg-color;
+        border-radius: 20px;
+        margin: 5px;
+}
+
 .bienvenida {
     display: flex;
     justify-content: space-aound;    
     margin: 5px;
     border: $estilo-border;    
-    background-color: bg-color;
+    background-color: $bg-color;
     border-radius: 10px;
     .texto .titulo {
         padding: 20px;
@@ -42,7 +59,7 @@
         padding: 5px;
         margin: 5px; 
         border: $estilo-border;    
-        background-color: bg-color;
+        background-color: $bg-color;
         .titulo-item {
             color: brown;
             padding-bottom: 10px;
@@ -69,15 +86,7 @@
     display: flex;
     justify-content: center;
     .reservas {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 10px;
-        align-items: center;
-        border: $estilo-border;    
-        background-color: bg-color;
-        border-radius: 20px;
-        margin: 5px;
+        @extend .estructura-flex-reservas-contactos;
         .titulo {
             padding: 5px;
         }
@@ -85,34 +94,10 @@
             text-align: center;
             line-height: 1.3;  
         }
-        .boton {
-            border-radius: 2rem;    
-            height: auto;    
-            padding: 10PX;    
-            font-size: 0.8rem;
-            list-style-type: none; 
-            text-align: center;
-            font-weight: bolder;
-            background:rgb(75, 1, 1);
-            color: rgb(248, 193, 186);
-            text-decoration: none;
-            &:hover {
-                cursor: pointer;
-                background:rgb(167, 41, 41);
-                border-radius: 2rem;
-                color: rgb(235, 197, 187);
-            }
-        }
+        
     }
     .contactos {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        border: $estilo-border;    
-        background-color: bg-color;
-        border-radius: 20px;
-        margin: 5px;
+        @extend .estructura-flex-reservas-contactos;
         .titulo {
             padding: 5px;
             margin: 1px;
@@ -121,25 +106,7 @@
             padding: 5px;    
             text-align: center;
             line-height: 1.3;  
-        }
-        .boton {
-            border-radius: 2rem;    
-            height: auto;    
-            padding: 10PX;    
-            font-size: 0.8rem;
-            list-style-type: none; 
-            text-align: center;
-            font-weight: bolder;
-            background:rgb(75, 1, 1);
-            color: rgb(248, 193, 186);
-            text-decoration: none;
-            &:hover {
-                cursor: pointer;
-                background:rgb(167, 41, 41);
-                border-radius: 2rem;
-                color: rgb(235, 197, 187);
-            }
-        }
+        }        
     }
 }
 

@@ -1,3 +1,5 @@
+
+
 .grid-container-promo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -18,17 +20,10 @@
         padding-top: 20px;
         justify-content: baseline;
         border: $estilo-border;    
-        background-color: bg-color;
+        background-color: $bg-color;
         border-radius: 20px;
         .img-promo {
-            padding-left: 40px;
-            img{
-                border-radius: 10px;
-                box-shadow: 0 3px rgba(0, 0, 0, 0.3);    
-                margin: 10px;    
-                height: 180px;
-                width: auto;
-            }
+            padding-left: 40px;            
         }
         .texto-promo{
             align-items: center;

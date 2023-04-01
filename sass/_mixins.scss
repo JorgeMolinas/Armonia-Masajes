@@ -1,0 +1,28 @@
+/***** MIXINGS *****/
+@mixin botones {
+    border-radius: 2rem;    
+    height: auto;    
+    padding: 10PX;    
+    font-size: 0.8rem;
+    list-style-type: none; 
+    text-align: center;
+    font-weight: bolder;
+    background:rgb(75, 1, 1);
+    color: rgb(248, 193, 186);
+    text-decoration: none;
+    &:hover {
+        cursor: pointer;
+        background:rgb(167, 41, 41);
+        border-radius: 2rem;
+        color: rgb(235, 197, 187);
+    }
+}
+
+@mixin estilo-img {
+    border-radius: 10px;
+                box-shadow: 0 3px rgba(0, 0, 0, 0.3);    
+                margin: 10px;    
+                height: 180px;
+                width: auto;
+}
+

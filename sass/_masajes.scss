@@ -1,3 +1,5 @@
+
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -12,7 +14,7 @@
         text-align: center;
         line-height: 1.3;
         border: $estilo-border;    
-        background-color: bg-color;
+        background-color: $bg-color;
         border-radius: 10px;
         margin: 10px;
         p {
@@ -22,7 +24,7 @@
     }
     .masajes-article {
         border: $estilo-border;    
-        background-color: bg-color;
+        background-color: $bg-color;
         border-radius: 20px;
         justify-self: center;
         margin: 10px;
@@ -38,14 +40,7 @@
         .masajes-article-img {
             text-align: center;
             padding-top: 20px;
-            justify-content: baseline;
-            img {
-                border-radius: 10px;
-                box-shadow: 0 3px rgba(0, 0, 0, 0.3);
-                margin: 10px;
-                height: 180px;
-                width: auto;
-            }   
+            justify-content: baseline;            
         }    
     }
 
