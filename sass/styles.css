@@ -8,8 +8,10 @@
   align-items: center;
   border: 1px solid rgba(183, 97, 97, 0.39);
   background-color: rgba(227, 66, 51, 0.07);
+  background-image: linear-gradient(rgb(75, 1, 1)), rgb(248, 193, 186);
   border-radius: 20px;
   margin: 5px;
+  width: 50%;
 }
 
 .bienvenida {
@@ -19,10 +21,12 @@
   border: 1px solid rgba(183, 97, 97, 0.39);
   background-color: rgba(227, 66, 51, 0.07);
   border-radius: 10px;
+  margin: 30px 0 30px 0;
 }
 .bienvenida .texto .titulo {
   padding: 20px;
   padding-bottom: 5px;
+  transition: 10s;
 }
 .bienvenida .texto p {
   padding: 10px;
@@ -46,6 +50,7 @@
   justify-content: space-around;
   border-radius: 10px;
   margin: 5px;
+  text-decoration: none;
 }
 .tipos-masajes .masaje-item {
   display: flex;
@@ -61,26 +66,28 @@
 }
 .tipos-masajes .masaje-item .titulo-item {
   color: brown;
-  padding-bottom: 10px;
+  padding-top: 10px;
   justify-content: center;
+  font-size: 1.1rem;
 }
 .tipos-masajes .masaje-item img {
   box-shadow: 0 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   margin: 10px;
-  transition: all 0.25s;
+  transition: 0.3 ease all;
   border-radius: 10px;
   height: 180px;
   width: auto;
 }
 .tipos-masajes .masaje-item:hover {
-  transform: translateY(-15px);
+  transform: scale(1.07);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 .turnos {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 .turnos .reservas .titulo {
   padding: 5px;
@@ -103,9 +110,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.3fr 1fr 1fr;
-  row-gap: 10px;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding: 0 40px 40px 40px;
 }
 .grid-container .masajes-titulo {
   grid-column: 1/4;
@@ -114,10 +122,12 @@
   padding: 10px;
   text-align: center;
   line-height: 1.3;
-  border: 1px solid rgba(183, 97, 97, 0.39);
-  background-color: rgba(227, 66, 51, 0.07);
-  border-radius: 10px;
   margin: 10px;
+  padding: 20px 10px 20px 10px;
+  width: 60%;
+}
+.grid-container .masajes-titulo .titulo {
+  transition: 7s;
 }
 .grid-container .masajes-titulo p {
   padding: 5px;
@@ -129,7 +139,7 @@
   border-radius: 20px;
   justify-self: center;
   margin: 10px;
-  padding: 5px;
+  padding: 15px;
   text-align: justify;
 }
 .grid-container .masajes-article .titulo {
@@ -153,6 +163,7 @@
   -moz-column-gap: 10px;
        column-gap: 10px;
   margin: 10px;
+  padding: 0px 40px 40px 40px;
 }
 .grid-container-promo .promo-titulo {
   grid-column: 1/4;
@@ -162,6 +173,9 @@
   text-align: left;
   line-height: 1.3;
 }
+.grid-container-promo .promo-titulo .titulo {
+  transition: 20s;
+}
 .grid-container-promo .promo {
   text-align: justify;
   padding-top: 20px;
@@ -169,6 +183,8 @@
   border: 1px solid rgba(183, 97, 97, 0.39);
   background-color: rgba(227, 66, 51, 0.07);
   border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
 }
 .grid-container-promo .promo .img-promo {
   padding-left: 40px;
@@ -191,13 +207,15 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 1px solid rgba(183, 97, 97, 0.39);
-  background-color: rgba(227, 66, 51, 0.07);
   margin: 10px;
-  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  width: 100%;
+  text-align: center;
 }
 .contacto-titulo .titulo {
   padding: 5px 10px 5px 10px;
+  font-size: 2rem;
+  transition: 10s;
 }
 .contacto-titulo p {
   padding: 10px;
@@ -242,6 +260,13 @@
   cursor: pointer;
   box-sizing: border-box;
 }
+.contacto-contenido .form .form-datos label {
+  font-size: 0.9rem;
+}
+.contacto-contenido .form .form-datos .form-div {
+  text-align: center;
+  width: 100%;
+}
 .contacto-contenido .ubicacion {
   display: flex;
   flex-wrap: wrap;
@@ -278,9 +303,27 @@
   justify-content: center;
   flex-direction: column;
   line-height: 1.3;
+  padding: 5px 40px 5px 40px;
+}
+.conocenos .conocenos-contenido .conocenos-titulo {
+  padding: 20px 50px 20px 50px;
+  width: 100%;
+}
+.conocenos .conocenos-contenido .conocenos-titulo .titulo {
+  transition: 10s;
+  text-align: center;
+  font-size: 2rem;
+}
+.conocenos .conocenos-contenido .conocenos-titulo p {
+  width: 100%;
+  text-align: center;
+}
+.conocenos .conocenos-contenido .conocenos-item {
+  padding: 20px 140px 20px 30px;
 }
 .conocenos .conocenos-contenido .conocenos-item .titulo {
-  text-align: left;
+  text-align: justify;
+  font-size: 1.1 rem;
 }
 .conocenos .conocenos-contenido .conocenos-item p {
   text-align: justify;
@@ -376,6 +419,19 @@
   width: auto;
 }
 
+/****** ANIMACIONES ******/
+@keyframes animation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.logo {
+  animation: ease-in animation 1s;
+}
+
 /****** ESTILOS GENERALES ******/
 * {
   padding: 0;
@@ -385,13 +441,20 @@
 
 body {
   background-color: rgb(247, 220, 217);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   font-size: 1rem;
 }
 
 i {
-  color: black;
+  color: rgb(253, 175, 175);
   padding: 5px;
+}
+
+em {
+  font-family: "Roboto", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  color: brown;
+  font-size: 2.5rem;
+  text-shadow: 2px 3px 4px rgba(10, 8, 8, 0.6);
 }
 
 header {
@@ -399,7 +462,7 @@ header {
   width: 100%;
 }
 
-h2 h3 {
+h1 h2 h3 {
   text-align: center;
   padding: 10px;
   color: brown;
@@ -409,10 +472,18 @@ aside {
   margin: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .titulo {
   color: brown;
   text-align: center;
   padding: 10px;
+  text-shadow: 2px 3px 4px rgba(255, 101, 101, 0.6);
+}
+.titulo h1 {
+  transition: 7s;
 }
 
 /****** ENCABEZADO CON NESTING ******/
@@ -420,7 +491,9 @@ aside {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
+  margin: 0 0 40px 0;
+  border-bottom: 1px solid rgb(250, 174, 164);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .encabezado .logo {
   width: 20%;
@@ -481,7 +554,7 @@ aside {
   display: flex;
   color: rgb(75, 1, 1);
   width: 100%;
-  margin-top: 5px;
+  margin-top: 40px;
   background-color: brown;
 }
 .pie-de-pagina .logo {
@@ -503,11 +576,7 @@ aside {
   width: 70%;
   padding-left: 100px;
   font-size: 15px;
-  color: rgb(255, 135, 135);
-}
-.pie-de-pagina .contactanos h5 {
-  padding-top: 5px;
-  margin: 1px;
+  color: rgb(253, 175, 175);
 }
 .pie-de-pagina .contactanos p {
   margin: 1px;
@@ -543,6 +612,9 @@ aside {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 5px;
+    margin: 0 0 40px 0;
+    border-bottom: 1px solid rgb(250, 174, 164);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   }
   .navegacion-principal {
     color: white;
@@ -625,7 +697,7 @@ aside {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr;
     row-gap: 10px;
     -moz-column-gap: 10px;
          column-gap: 10px;
@@ -637,8 +709,6 @@ aside {
     padding: 10px;
     text-align: center;
     line-height: 1.3;
-    border: 1px solid rgba(183, 97, 97, 0.39);
-    background-color: rgba(227, 66, 51, 0.07);
     border-radius: 10px;
     margin: 10px;
   }
@@ -651,6 +721,7 @@ aside {
     row-gap: 10px;
     -moz-column-gap: 10px;
          column-gap: 10px;
+    padding: 10px 0px 10px 0px;
   }
   .grid-container-promo .promo-titulo {
     grid-column: 1/3;
@@ -684,6 +755,9 @@ aside {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 5px;
+    margin: 0 0 40px 0;
+    border-bottom: 1px solid rgb(250, 174, 164);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   }
   .navegacion-principal {
     color: white;
@@ -788,8 +862,6 @@ aside {
     padding: 10px;
     text-align: center;
     line-height: 1.3;
-    border: 1px solid rgba(183, 97, 97, 0.39);
-    background-color: rgba(227, 66, 51, 0.07);
     border-radius: 10px;
     margin: 10px;
   }

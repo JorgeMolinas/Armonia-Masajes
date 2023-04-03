@@ -1,13 +1,15 @@
 .contacto-titulo {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    border: $estilo-border;
-    background-color: $bg-color;
+    flex-wrap: wrap;    
     margin: 10px;
-    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    width: 100%;
+    text-align: center;    
     .titulo {
         padding: 5px 10px 5px 10px;
+        font-size: 2rem;
+        transition:10s; 
     }
     p {
         padding: 10px;
@@ -49,7 +51,14 @@
                 margin: 5px 0px;
                 cursor: pointer;
                 box-sizing: border-box;
-            }            
+            }       
+            label {
+                font-size: 0.9rem;
+            }
+            .form-div {
+                text-align: center;
+                width: 100%;
+            }     
         }
     }
     .ubicacion {
