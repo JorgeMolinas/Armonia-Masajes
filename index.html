@@ -3,41 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/d6857610b3.js" crossorigin="anonymous"></script>        
-     <!-- bootstrap css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <!-- SEO -->
+    <meta name="description" content="Bienvenidos a Armonía Masajes, Nuestro fin principal se basa en poder ofrecer a nuestros clientes una gratificante experiencia y que pueda volver a su rutina diaria con las energías renovadas. Para mejorar la salud, bienestar y estética de tu cuerpo, realizamos distintos tipos de masajes y variedades de tratamientos para que te sientas pleno.">
+    <meta name="keywords" content="armonia, masajes, turnos, precios,servicios, contacto, conocenos">
+    <!-- bootstrap css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"/>
-      <!-- SEO -->
-      <meta name="description" content="Bienvenidos a Armonía Masajes, Nuestro fin principal se basa en poder ofrecer a nuestros clientes una gratificante experiencia y que pueda volver a su rutina diaria con las energías renovadas. Para mejorar la salud, bienestar y estética de tu cuerpo, realizamos distintos tipos de masajes y variedades de tratamientos para que te sientas pleno.">
-      <meta name="keywords" content="armonia, masajes, turnos, precios,servicios, contacto, conocenos">
-
     <link rel="stylesheet" href="./sass/styles.css">
     <title>Armonia Masajes</title>    
 </head>
 <body>
     <header class="encabezado">
-        <div class="logo">
-            <a href="./index.html"><span><img src="./imagenes/logo-armonia-masajes-t (1).png" alt="Logo Armonia Masajes" width="100" height="auto"></a>                  
+        <div class="general">
+            <div class="logo">
+                <a href="./index.html"><span><img src="./imagenes/logo-armonia-masajes-t (1).png" alt="Logo Armonia Masajes" width="100" height="auto"></a>                  
+            </div>
+            <div class="navegacion-principal">
+                <input type="checkbox">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+                <nav>
+                    <ul>
+                        <li> <a href="#">Inicio</a></li>
+                        <li> <a href="./paginas/masajes.html">Masajes</a></li>
+                        <li> <a href="./paginas/promociones.html">Promociones</a></li>
+                        <li> <a href="./paginas/contacto.html">Contacto</a></li>
+                        <li><a href="./paginas/conocenos.html">Conocenos</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </div>   
+        <div class="redes">Seguinos en nuestras redes
+            <ul>
+                <li>
+                    <a href="https://instagram.com/armoniamasajes3011?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a> 
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100090188044607&mibextid=ZbWKwL" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="navegacion-principal">
-            <input type="checkbox">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
-            <nav>
-                <ul>
-                    <li> <a href="#">Inicio</a></li>
-                    <li> <a href="./paginas/masajes.html">Masajes</a></li>
-                    <li> <a href="./paginas/promociones.html">Promociones</a></li>
-                    <li> <a href="./paginas/contacto.html">Contacto</a></li>
-                    <li><a href="./paginas/conocenos.html">Conocenos</a></li>
-                </ul>
-            </nav>
-        </div>     
-        
     </header>
     <main>
         <div class="container">            
@@ -50,20 +63,20 @@
                 </div> 
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="./imagenes/carrusel-1.jpg" class="d-block w-100" alt="...">
+                    <img src="./imagenes/carrusel-1.jpg" class="d-block w-100" alt="carrusel-1">
                     <div class="carousel-caption d-none d-md-block">
                         <h2> <em> <strong>  Armonia Masajes </strong> </em>  </h2>
                         <p>Un espacio para recibir lo que tu cuerpo necesita y merece.</p>
                       </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                    <img src="./imagenes/carrusel-2.jpg" class="d-block w-100" alt="...">
+                    <img src="./imagenes/carrusel-2.jpg" class="d-block w-100" alt="carrusel-2">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                    <img src="./imagenes/carrusel-3.jpg" class="d-block w-100" alt="...">
+                    <img src="./imagenes/carrusel-3.jpg" class="d-block w-100" alt="carrusel-3">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                    <img src="./imagenes/carrusel-4.jpg" class="d-block w-100" alt="...">
+                    <img src="./imagenes/carrusel-4.jpg" class="d-block w-100" alt="carrusel-4">
                     </div>
                 </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -81,14 +94,14 @@
             <div class="row">
               <div class="col">
                 <section class="bienvenida">
+                    <div class="imagen" >
+                        <img src="./imagenes/masajes-bienvenida.jpg" alt="Masajes bienvenida">                    
+                    </div>   
                     <div class="texto">
                         <h1 class="titulo">Bienvenidos a Armonía Masajes</h1>
                         <p>Nuestro fin principal se basa en poder ofrecer a nuestros clientes una gratificante experiencia y que pueda volver a su rutina diaria con las energías renovadas. Para mejorar la salud, bienestar y estética de tu cuerpo, realizamos distintos tipos de masajes y variedades de tratamientos para que te sientas pleno.
                         </p>
-                    </div>
-                    <div class="imagen" >
-                        <img src="./imagenes/masajes-descontracturantes.jpg">                    
-                    </div>                
+                    </div>                                 
                 </section>
               </div>          
             </div>
@@ -98,97 +111,96 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masajes descontracturantes</h4>                      
-                                <img src="./imagenes/masaje-descontracturante.jpg">
-                            </a>
-                        </article>
-                    </section>   
-                </div>
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masaje reductor anti-celulítico</h4>
-                                <img src="./imagenes/masaje-reductor.jpg">
-                            </a>
-                        </article>
-                    </section>            
-                </div>
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masajes para embarazadas</h4>                      
-                                <img src="./imagenes/embarazada-drenaje.jpg">
-                            </a>                        
-                        </article>                         
-                    </section>   
-                </div>
-                <div div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masajes con piedras calientes</h4>
-                                <img src="./imagenes/promo-masajes-piedras-calientes.jpg">
-                            </a>
-                        </article> 
-                    </section>   
-                </div>
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masaje linfático drenante</h4>                         
-                                <img src="./imagenes/masaje-drenante-circulatorio.jpg">
-                            </a>             
-                        </article> 
-                    </section>   
-                </div>
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masaje cervico craneal</h4>
-                                <img src="./imagenes/masaje-cervico-craneal.jpg">
-                            </a>
-                        </article> 
-                    </section>
-                </div>
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masajes relajantes</h4>                        
-                                <img src="./imagenes/masaje-relajante.jpg">
-                            </a>             
-                        </article>                        
-                    </section>   
-                </div>
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masaje deportivo</h4>
-                                <img src="./imagenes/masaje-deportivo.jpg">
-                            </a>
-                        </article>                        
-                    </section>   
-                </div>
-                <div class="col">
-                    <section class="tipos-masajes">
-                        <article class="masaje-item">
-                            <a href="./paginas/masajes.html">
-                                <h4 class="titulo-item">Masajes linfático</h4>                      
-                                <img src="./imagenes/masaje-linfatico.jpg"> 
-                            </a>                        
-                        </article>                         
-                    </section>   
-                </div>
-                
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masajes descontracturantes</h4>                      
+                            <img src="./imagenes/masaje-descontracturante.jpg" alt="Masajes descontracturantes">
+                        </a>
+                    </article>
+                </section>   
+              </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masaje reductor anti-celulítico</h4>
+                            <img src="./imagenes/masaje-reductor.jpg" alt="Masajes reductor anti-celulítico">
+                        </a>
+                    </article>
+                </section>            
+              </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masajes para embarazadas</h4>                      
+                            <img src="./imagenes/embarazada-drenaje.jpg" alt="Masajes para embarazada">
+                        </a>                        
+                    </article>                         
+                </section>   
+            </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masajes con piedras calientes</h4>
+                            <img src="./imagenes/promo-masajes-piedras-calientes.jpg" alt="Masajes con piedras calientes">
+                        </a>
+                    </article> 
+                </section>   
+              </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masaje linfático drenante</h4>                         
+                            <img src="./imagenes/masaje-drenante-circulatorio.jpg" alt="Masajes linfatico drenante">
+                        </a>             
+                    </article> 
+                </section>   
+              </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masaje cervico craneal</h4>
+                            <img src="./imagenes/masaje-cervico-craneal.jpg" alt="Masajes cervico craneal">
+                        </a>
+                    </article> 
+                </section>
+              </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masajes relajantes</h4>                        
+                            <img src="./imagenes/masaje-relajante.jpg" alt="Masajes relajantes">
+                        </a>             
+                    </article>                        
+                </section>   
+              </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masaje deportivo</h4>
+                            <img src="./imagenes/masaje-deportivo.jpg" alt="Masajes deportivo">
+                        </a>
+                    </article>                        
+                </section>   
+              </div>
+              <div class="col">
+                <section class="tipos-masajes">
+                    <article class="masaje-item">
+                        <a href="./paginas/masajes.html">
+                            <h4 class="titulo-item">Masajes linfático</h4>                      
+                            <img src="./imagenes/masaje-linfatico.jpg" alt="Masajes linfatico"> 
+                        </a>                        
+                    </article>                         
+                </section>   
+              </div>
                 
             </div>
             <section class="turnos">
@@ -206,34 +218,21 @@
         </div>
     </main>
     <footer class="pie-de-pagina">
-        <div class="logo">
-            <img src="./imagenes/logo-armonia-masajes-t2.png" alt="Logo Armonia Masajes" width="150" height="auto">
-        </div>           
-        
-        <div class="contactanos">
-            <p><i class="fa fa-map-marker icons"></i>Paraguay 1480, Corrientes, Argentina.</p>
-            <p><i class="fa fa-envelope icons"></i>armoniamasajes3011@gmail.com</p>
-            <p><i class="fa fa-mobile icons"></i>54 379 4017836</p>
-            <p><i class="fas fa-clock"></i>De Lunes a Viernes de 16:30 a 21:00 hs</p>
-            <span>#Seguinos en redes sociales:</span> 
-            <div class="redes">
-                <ul>
-                    <li>
-                        <a href="https://instagram.com/armoniamasajes3011?igshid=YmMyMTA2M2Y=" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100090188044607&mibextid=ZbWKwL" target="_blank">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>    
-        
+        <div class="contactos">
+            <div class="logo">
+                <img src="./imagenes/logo-armonia-masajes-t2.png" alt="Logo Armonia Masajes" width="150" height="auto">
+            </div>        
+            <div class="contactanos">
+                <p><i class="fa fa-map-marker icons"></i>Paraguay 1480, Corrientes, Argentina.</p>
+                <p><i class="fa fa-envelope icons"></i>armoniamasajes3011@gmail.com</p>
+                <p><i class="fa fa-mobile icons"></i>54 379 4017836</p>                
+            </div> 
+        </div>   
+        <div class="derechos">
             <span>Armonia Masajes - © Todos los derechos reservados - 2023</span> 
-        </div>      
+        </div>
     </footer>
+    <script src="https://kit.fontawesome.com/d6857610b3.js" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

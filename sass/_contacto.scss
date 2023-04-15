@@ -19,13 +19,12 @@
 }
 
 .contacto-contenido {
-    display: flex;
+    display: flex;    
     justify-content: space-around;    
     border: $estilo-border;    
     background-color: $bg-color;
     margin: 10px;
     border-radius: 10px;
-    flex-wrap: wrap;
     .form {
         display: flex;
         flex-wrap: wrap;
@@ -66,14 +65,13 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        p {
-            padding: 10px;
-            text-align: center;
-        }
-        aside iframe {
-            text-align: center;
-            padding: 5px 30px 5px 30px;
-        }
+        .mapa {
+            aside iframe {
+                text-align: center;
+                padding: 5px 30px 5px 30px;
+            }
+        }       
+        
     }
 }
 

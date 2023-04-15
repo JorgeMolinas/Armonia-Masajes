@@ -1,104 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/d6857610b3.js" crossorigin="anonymous"></script>
-        <!-- SEO -->
-        <meta name="description" content="Si necesita consultar un precio, o por un servicio no dude en llamar, deje un WhatsApp, o escríbanos un mail con sus datos y le responderemos a la brevedad. Ubicado cerca del centro de Corrientes (Capital), es muy fácil llegar, ¡Te estaremos esperando!">
-        <meta name="keywords" content="armonia, masajes, turnos, precios, servicios, contacto, conocenos">
-
-        <link rel="stylesheet" href="../sass/styles.css">
-        <title>Contacto</title>
-
-    </head>
-    <body>        
-        <header class="encabezado">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="Si necesita consultar un precio, o por un servicio no dude en llamar, deje un WhatsApp, o escríbanos un mail con sus datos y le responderemos a la brevedad.">
+    <meta name="keywords" content="armonia, masajes, turnos, precios, servicios, contacto, conocenos">
+     <!-- bootstrap css -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+     crossorigin="anonymous"/>  
+    <link rel="stylesheet" href="../sass/styles.css">
+    <title>Contacto</title>    
+</head>
+<body>
+    <header class="encabezado">
+        <div class="general">
             <div class="logo">
-                <a href="../index.html"><span><img src="../imagenes/logo-armonia-masajes-t (1).png" alt="Logo Armonia Masajes" width="100" height="auto"></a>                  
+            <a href="../index.html"><span><img src="../imagenes/logo-armonia-masajes-t (1).png" alt="Logo Armonia Masajes" width="100" height="auto"></a>                  
             </div>
             <div class="navegacion-principal">
-                <input type="checkbox">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-times"></i>
-                <nav>
-                    <ul>
-                        <li> <a href="../index.html">Inicio</a></li>
-                        <li> <a href="./masajes.html">Masajes</a></li>
-                        <li> <a href="./promociones.html">Promociones</a></li>
-                        <li> <a href="./contacto.html">Contacto</a></li>
-                        <li><a href="./conocenos.html">Conocenos</a></li>
-                    </ul>
-                </nav>
-            </div>            
+            <input type="checkbox">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+            <nav>
+                <ul>
+                    <li> <a href="../index.html">Inicio</a></li>
+                    <li> <a href="./masajes.html">Masajes</a></li>
+                    <li> <a href="./promociones.html">Promociones</a></li>
+                    <li> <a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./conocenos.html">Conocenos</a></li>
+                </ul>
+            </nav>
+            </div>  
+        </div>   
+        <div class="redes">Seguinos en nuestras redes
+            <ul>
+                <li>
+                    <a href="https://instagram.com/armoniamasajes3011?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a> 
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100090188044607&mibextid=ZbWKwL" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
-        <main>
+    <main>
+        <div class="container">
+            <div class="row">
+              <div class="col">
                 <section class="contacto-titulo">
                     <h1 class="titulo">Contacto</h1>
                     <p>Si necesita consultar un precio, o por un servicio no dude en llamar, deje un WhatsApp, o escríbanos un mail con sus datos y le responderemos a la brevedad.</p>        
                 </section>
-                
-                <div class="contacto-contenido">
-                    <div class="form">
-                        <h3 class="titulo">Envíanos tu Consulta</h3>
-                        <form name="form" class="form-datos">
-                            <label>Nombre y Apellido <span>*</span></label>
-                            <input tape="text" name="nombre" class="form-input" size="50">
-                            <label>Correo electrónico <span>*</span></label>
-                            <input tape="text" name="email" class="form-input" size="50">
-                            <label>Asunto <span>*</span></label>
-                            <input tape="text" name="asunto" class="form-input" size="50">
-                            <label>Mensaje <span>*</span></label>
-                            <textarea cols="3" rows="3" name="consulta" class="form-input"></textarea>
-                            <label><span>* Campos requeridos</span></label>
-                            <div class="form-div">
-                                <input type="submit" value="Enviar"  class="boton-enviar-msj"/>
-                                <input type="reset" value="Limpiar" class="boton-limpiar-form" />
-                            </div>                            
-                        </form>                    
-                    </div>            
-                    <div class="ubicacion">
-                        <h3 class="titulo">Nuestra ubicación</h3>
-                        <!-- mapa -->
-                        <div>
-                            <p>Ubicado cerca del centro de Corrientes (Capital), es muy fácil llegar, ¡Te estaremos esperando!</p>
-                            <aside>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.8163110519035!2d-58.829659284750136!3d-27.474977482888775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b61bf1ee507%3A0xb8c867a8e6f44565!2sParaguay%201480%2C%20W3400CLS%20Corrientes!5e0!3m2!1ses-419!2sar!4v1676814139766!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </aside>
-                        </div>                                    
+              </div>          
+            </div>        
+            <div class="row">
+                <div class="col">
+                    <div class="contacto-contenido">
+                        <div class="form">
+                            <h3 class="titulo">Envíanos tu Consulta</h3>
+                            <form name="form" class="form-datos">
+                                <label>Nombre y Apellido <span>*</span></label>
+                                <input tape="text" name="nombre" class="form-input" size="50">
+                                <label>Correo electrónico <span>*</span></label>
+                                <input tape="text" name="email" class="form-input" size="50">
+                                <label>Asunto <span>*</span></label>
+                                <input tape="text" name="asunto" class="form-input" size="50">
+                                <label>Mensaje <span>*</span></label>
+                                <textarea cols="3" rows="3" name="consulta" class="form-input"></textarea>
+                                <label><span>* Campos requeridos</span></label>
+                                <div class="form-div">
+                                    <input type="submit" value="Enviar"  class="boton-enviar-msj"/>
+                                    <input type="reset" value="Limpiar" class="boton-limpiar-form" />
+                                </div>                            
+                            </form>                    
+                        </div>
                     </div>
                 </div>
-               
-        </main>    
-        <footer class="pie-de-pagina">
+                <div class="col">    
+                    <div class="contacto-contenido">   
+                        <div class="ubicacion">
+                            <h3 class="titulo">Nuestra ubicación</h3>
+                            <!-- mapa -->
+                            <div class="mapa">                                
+                                <aside>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.8163110519035!2d-58.829659284750136!3d-27.474977482888775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b61bf1ee507%3A0xb8c867a8e6f44565!2sParaguay%201480%2C%20W3400CLS%20Corrientes!5e0!3m2!1ses-419!2sar!4v1676814139766!5m2!1ses-419!2sar" width="500" height="410" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </aside>
+                            </div>                                    
+                        </div>
+                    </div>
+                </div>                           
+            </div>
+        </div>
+    </main>
+    <footer class="pie-de-pagina">
+        <div class="contactos">
             <div class="logo">
                 <img src="../imagenes/logo-armonia-masajes-t2.png" alt="Logo Armonia Masajes" width="150" height="auto">
             </div>           
-            
+        
             <div class="contactanos">
                 <p><i class="fa fa-map-marker icons"></i>Paraguay 1480, Corrientes, Argentina.</p>
                 <p><i class="fa fa-envelope icons"></i>armoniamasajes3011@gmail.com</p>
-                <p><i class="fa fa-mobile icons"></i>54 379 4017836</p>
-                <p><i class="fas fa-clock"></i>De Lunes a Viernes de 16:30 a 21:00 hs</p>
-                <span>#Seguinos en redes sociales:</span> 
-                <div class="redes">
-                    <ul>
-                        <li>
-                            <a href="https://instagram.com/armoniamasajes3011?igshid=YmMyMTA2M2Y=" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a> 
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/profile.php?id=100090188044607&mibextid=ZbWKwL" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>    
-            
-                <span>Armonia Masajes - © Todos los derechos reservados - 2023</span> 
-            </div>      
-        </footer>       
-    </body>
+                <p><i class="fa fa-mobile icons"></i>54 379 4017836</p>                
+            </div> 
+        </div>   
+        <div class="derechos">
+            <span>Armonia Masajes - © Todos los derechos reservados - 2023</span> 
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d6857610b3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    
+</body>
 </html>

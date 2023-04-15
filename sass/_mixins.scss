@@ -6,10 +6,10 @@
     font-size: 0.8rem;
     list-style-type: none; 
     text-align: center;
-    font-weight: bolder;
+    font-weight: bolder;    
     background:rgb(75, 1, 1);
     color: rgb(248, 193, 186);
-    text-decoration: none;
+    text-decoration: none;    
     &:hover {
         cursor: pointer;
         background:rgb(167, 41, 41);
@@ -19,8 +19,8 @@
 }
 
 @mixin estilo-img {
-    border-radius: 10px;
-                box-shadow: 0 3px rgba(0, 0, 0, 0.3);    
+    border-radius: 10px;                    
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
                 margin: 10px;    
                 height: 180px;
                 width: auto;

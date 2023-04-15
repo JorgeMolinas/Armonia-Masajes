@@ -3,9 +3,11 @@
 .grid-container-promo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 1fr 1fr;
-    row-gap: 10px;
-    column-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+    -moz-column-gap: 40px;
+       column-gap: 40px;
+    justify-content: center;
     margin: 10px;
     padding: 0px 40px 40px 40px;
     .promo-titulo {
@@ -16,7 +18,7 @@
         text-align: left;
         line-height: 1.3;        
         .titulo {
-            transition: 7s; 
+            transition:7s; 
         }
     }
     .promo {
@@ -25,23 +27,22 @@
         justify-content: baseline;
         border: $estilo-border;    
         background-color: $bg-color;
-        border-radius: 20px;
-        margin: 10px;
+        border-radius: 20px;        
         padding: 15px;
-        .img-promo {
-            padding-left: 40px;            
+        .img-promo {            
+            text-align: center;            
         }
         .texto-promo{
             align-items: center;
-            h2 {
+            h3 {
                 color: brown;
-                text-align: left;
-                padding: 10px 10px 5px 40px;
+                text-align: center;
+                padding: 20px 0 10px 0;
             }
             p {
                 text-align: left;
                 line-height: 1.3;
-                padding: 10px 10px 5px 40px;
+                line-height: 25px;
             }
         }
     }

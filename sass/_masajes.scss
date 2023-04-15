@@ -3,7 +3,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
     padding: 0 40px 40px 40px;
@@ -18,7 +18,7 @@
         padding: 20px 10px 20px 10px;
         width: 60%;        
         .titulo {
-            transition: 7s; 
+            transition:7s; 
         }
         p {
             padding: 5px;
@@ -43,10 +43,10 @@
         .masajes-article-img {
             text-align: center;
             padding-top: 20px;
-            justify-content: baseline;            
+            justify-content: baseline;           
         }    
+        
     }
-
 }
 
  
